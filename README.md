@@ -6,13 +6,13 @@
 
 ## Requisitos
 
-** Java Development Kit (JDK) 8 o superior**
+Java Development Kit (JDK) 8 o superior
 
-** Maven 3.6 o superior**
+Maven 3.6 o superior
 
-** Base de datos MySQL o PostgreSQL**
+Base de datos MySQL o PostgreSQL
 
-** IDE compatible con Java (IntelliJ IDEA, Eclipse, NetBeans, etc.)**
+IDE compatible con Java (IntelliJ IDEA, Eclipse, NetBeans, etc.)
 
 ## Configuracion
 
