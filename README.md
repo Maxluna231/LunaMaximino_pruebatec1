@@ -21,19 +21,19 @@ IDE compatible con Java (IntelliJ IDEA, Eclipse, NetBeans, etc.)
 - 2.mportar el proyecto en el IDE:
 - Abrir el IDE.
 
--Seleccionar "Importar proyecto".
+- Seleccionar "Importar proyecto".
 
--Elegir el archivo pom.xml para cargar las dependencias de Maven. 
+- Elegir el archivo pom.xml para cargar las dependencias de Maven. 
 
-##Configuar la base datos
--Actualizar el archivo persistence.xml con la configuracion adecuada
+## Configuar la base datos
+- Actualizar el archivo persistence.xml con la configuracion adecuada
 <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/empleados"/>
 <property name="javax.persistence.jdbc.user" value="root"/>
 <property name="javax.persistence.jdbc.password" value="password"/>
 
-##Ejecucion del proyecto
--mvn clean install
-java -jar target/gestion-empleados.jar
+## Ejecucion del proyecto
+**mvn clean install**
+**java -jar target/gestion-empleados.jar**
 
 **Al iniciar la aplicacion muestra un menu con opciones**
 =======================================
@@ -48,17 +48,17 @@ Seleccione una opcion :)
 6. Salir
 
 
-##Supuestos
+## Supuestos
 
 **Integridad de Datos**
 
--Se supone que el ID ingresado existe en la base de datos para operaciones como actualizar y eliminar.
+- Se supone que el ID ingresado existe en la base de datos para operaciones como actualizar y eliminar.
 
--Se valida que los campos no estén vacíos.
+- Se valida que los campos no estén vacíos.
 
--Base de Datos Inicializada:
+- Base de Datos Inicializada:
 
--La base de datos debe estar previamente creada y configurada.
+- La base de datos debe estar previamente creada y configurada.
 
 -Formato de Fecha:
 
