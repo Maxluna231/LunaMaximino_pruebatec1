@@ -32,8 +32,8 @@ IDE compatible con Java (IntelliJ IDEA, Eclipse, NetBeans, etc.)
 <property name="javax.persistence.jdbc.password" value="password"/>
 
 ## Ejecucion del proyecto
-**mvn clean install**
-**java -jar target/gestion-empleados.jar**
+- mvn clean install
+- java -jar target/gestion-empleados.jar**
 
 **Al iniciar la aplicacion muestra un menu con opciones**
 =======================================
@@ -60,11 +60,11 @@ Seleccione una opcion :)
 
 - La base de datos debe estar previamente creada y configurada.
 
--Formato de Fecha:
+- Formato de Fecha:
 
--El formato de fecha esperado es YYYY-MM-DD.
+- El formato de fecha esperado es YYYY-MM-DD.
 
--Valores Numéricos Positivos:
+- Valores Numéricos Positivos:
 
--Los salarios deben ser mayores a 0.
+- Los salarios deben ser mayores a 0.
  
