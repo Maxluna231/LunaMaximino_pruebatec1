@@ -18,7 +18,7 @@ IDE compatible con Java (IntelliJ IDEA, Eclipse, NetBeans, etc.)
 
 - 1.clonar repositorio-
  git clone https://github.com/usuario/repo-gestion-empleados.git
-- 2.mportar el proyecto en el IDE:
+- 2.Importar el proyecto en el IDE:
 - Abrir el IDE.
 
 - Seleccionar "Importar proyecto".
