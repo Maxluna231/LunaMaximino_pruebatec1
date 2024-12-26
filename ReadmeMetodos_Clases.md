@@ -81,24 +81,24 @@
 
 ## public void crearEmpleado(Empleado emple)
 
-- Propósito: Guarda un nuevo empleado en la base de datos.
+- Guarda un nuevo empleado en la base de datos.
 
 ## public List<Empleado> traerEmpleados()
 
-- Propósito: Recupera todos los empleados registrados.
+- Recupera todos los empleados registrados.
 
 ## public Empleado traerEmpleadoPorId(Long id)
 
-- Propósito: Recupera un empleado basado en su ID.
+- Recupera un empleado basado en su ID.
 
 # public void actualizarEmpleado(Empleado emple)
 
-- Propósito: Actualiza la información de un empleado existente.
+- Actualiza la información de un empleado existente.
 
 # public void eliminarEmpleado(Long idEmpleado)
 
-- Propósito: Elimina un empleado de la base de datos.
+-  Elimina un empleado de la base de datos.
 
 # public List<Empleado> buscarEmpleadosPorCargo(String cargo)
 
--Propósito: Busca empleados que coincidan con un cargo específico.
+- Busca empleados que coincidan con un cargo específico.
