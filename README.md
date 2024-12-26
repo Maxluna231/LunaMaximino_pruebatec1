@@ -1,6 +1,6 @@
 # Gestion de Empleados
 
-##Descripción
+## Descripción
 
 **La aplicación Gestión de Empleados permite registrar, actualizar, eliminar y buscar empleados en una base de datos. Proporciona una interfaz amigable en consola para interactuar con las funcionalidades.**
 
