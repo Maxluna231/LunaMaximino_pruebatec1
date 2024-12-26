@@ -14,14 +14,15 @@ import persistencia.ControladoraPersistencia;
    private static List<Empleado> empleados = new ArrayList<>();
   
     public static void main(String[] args) {
-      ControladoraPersistencia controlPersis = new ControladoraPersistencia(); 
+      ControladoraPersistencia controlPersis = new ControladoraPersistencia(); //crear la instancia de ControladroraPersistencia
       Scanner teclado = new Scanner(System.in);
       boolean bandera = false; 
 
         System.out.println("=======================================");
         System.out.println("  ʕ•́ᴥ•̀ʔ   GESTIÓN DE EMPLEADOS  ʕ•́ᴥ•̀ʔ ");
         System.out.println("=======================================");
-   
+
+       //bucle while para manejar correctamente las excepciones
         while(bandera != true) {
             System.out.println("\nSeleccione una opcion :) ");
             System.out.println("1.Agregar un nuevo empleado");
@@ -188,7 +189,8 @@ private static void mostrarEmpleado(ControladoraPersistencia controlPersis) {
         }
     }
 }
-    
+
+      //Metodos
     private static void validarNombre(String nombre) {
         if (nombre == null || nombre.trim().isEmpty()) {
          throw new IllegalArgumentException("El nombre no puede estar vacío");
