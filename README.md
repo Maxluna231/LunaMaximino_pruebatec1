@@ -2,19 +2,19 @@
 
 ## Descripción
 
-**La aplicación Gestión de Empleados permite registrar, actualizar, eliminar y buscar empleados en una base de datos. Proporciona una interfaz amigable en consola para interactuar con las funcionalidades.**
+** La aplicación Gestión de Empleados permite registrar, actualizar, eliminar y buscar empleados en una base de datos. Proporciona una interfaz amigable en consola para interactuar con las funcionalidades.**
 
-##Requisitos
+## Requisitos
 
-**Java Development Kit (JDK) 8 o superior**
+** Java Development Kit (JDK) 8 o superior**
 
-**Maven 3.6 o superior**
+** Maven 3.6 o superior**
 
-**Base de datos MySQL o PostgreSQL**
+** Base de datos MySQL o PostgreSQL**
 
-**IDE compatible con Java (IntelliJ IDEA, Eclipse, NetBeans, etc.)**
+** IDE compatible con Java (IntelliJ IDEA, Eclipse, NetBeans, etc.)**
 
-##Configuracion
+## Configuracion
 
 - 1.clonar repositorio-
  git clone https://github.com/usuario/repo-gestion-empleados.git
