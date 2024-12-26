@@ -101,4 +101,4 @@
 
 # public List<Empleado> buscarEmpleadosPorCargo(String cargo)
 
-- Busca empleados que coincidan con un cargo específico.
+- Busca empleados que coincidan con un cargo en especifico.
